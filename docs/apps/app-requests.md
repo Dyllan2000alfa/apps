@@ -26,13 +26,11 @@ _This list is to track `App Requests` from one place._
 - [ ] Umbrel #404
 - [ ] Netdata #280
 - [ ] Appwrite/Parse Framework #278
-- [ ] Requestarr #237
 - [ ] GitLab #227
 - [ ] Scrutiny #198
 - [ ] MovieNight #139
 - [ ] LanCache #138
 - [ ] Phabricator #122
-- [ ] ApacheGuacamole #103
 - [ ] n8n #27
 - [ ] InfluxDB #5
 - [ ] External-Auth-Server #28
@@ -55,10 +53,8 @@ _This list is to track `App Requests` from one place._
 - [ ] Suricata #1063
 - [ ] Jitsi Meet #1064
 - [ ] Mumble Server #1065
-- [ ] Quassel IRC #1070
 - [ ] KodBox #1079
 - [ ] oauth2-proxy
-- [ ] DokuWiki #1115
 - [ ] Storj Node #1086
 - [ ] PiGallery2 #1116
 - [ ] LANraragi #1159
@@ -86,56 +82,6 @@ _This list is to track `App Requests` from one place._
 - [ ] Machinaris #1304
 - [ ] Ghost #1282
 
-##### TODO: LSIO containers validated to be  plausible SCALE Apps
-
-- [ ] boinc
-- [ ] chevereto
-- [ ] couchpotato
-- [ ] darktable
-- [ ] ddclient
-- [ ] dillinger
-- [ ] dokuwiki
-- [ ] domoticz
-- [ ] duckdns
-- [ ] embystat
-- [ ] emulatorjs
-- [ ] endlessh
-- [ ] firefox
-- [ ] fleet
-- [ ] foldingathome
-- [ ] guacd
-- [ ] habridge
-- [ ] hedgedoc
-- [ ] htpcmanager
-- [ ] ipfs
-- [ ] kodi-headless
-- [ ] libreoffice
-- [ ] limnoria
-- [ ] minetest
-- [ ] minisatip
-- [ ] mysql-workbench
-- [ ] nano-wallet
-- [ ] netbootxyz
-- [ ] ngircd
-- [ ] nntp2nntp
-- [ ] openvscode-server
-- [ ] paperless-ng
-- [ ] papermerge
-- [ ] pidgin
-- [ ] projectsend
-- [ ] pwndrop
-- [ ] pydio-cells
-- [ ] pylon
-- [ ] quassel-core
-- [ ] quassel-web
-- [ ] requestrr
-- [ ] rsnapshot
-- [ ] synclounge
-- [ ] syslog-ng
-- [ ] ubooquity
-- [ ] webgrabplus
-- [ ] wireshark
-- [ ] znc #1343
 
 ##### TODO: LSIO containers with known complications
 
@@ -218,7 +164,6 @@ _These Apps have specific requirements or need specific customisation and care_
 
 ### Apps that not have a specific candidate yet.
 
-- [ ] DMS (Document Manage System) #810
 - [ ] Mail Server #274
 - [ ] Log Manager #509
 - [ ] FTP Client #615
@@ -512,3 +457,56 @@ _These Apps have specific requirements or need specific customisation and care_
 - [x] bookstack ( example helm-chart available from [ nicholaswilde ](https://github.com/nicholaswilde/helm-charts) )
 - [x] pixapop
 - [x] grav
+- [x] boinc
+- [x] chevereto
+- [x] couchpotato
+- [x] darktable
+- [x] ddclient
+- [x] dillinger
+- [x] dokuwiki
+- [x] domoticz
+- [x] duckdns
+- [x] embystat
+- [x] emulatorjs
+- [x] endlessh
+- [x] firefox
+- [x] fleet
+- [x] foldingathome
+- [x] guacd
+- [x] habridge
+- [x] hedgedoc
+- [x] htpcmanager
+- [x] ipfs
+- [x] kodi-headless
+- [x] libreoffice
+- [x] limnoria
+- [x] minetest
+- [x] minisatip
+- [x] mysql-workbench
+- [x] nano-wallet
+- [x] netbootxyz
+- [x] ngircd
+- [x] nntp2nntp
+- [x] openvscode-server
+- [x] paperless-ng
+- [x] papermerge
+- [x] pidgin
+- [x] projectsend
+- [x] pwndrop
+- [x] pydio-cells
+- [x] pylon
+- [x] quassel-core
+- [x] quassel-web
+- [x] requestrr
+- [x] rsnapshot
+- [x] synclounge
+- [x] syslog-ng
+- [x] ubooquity
+- [x] webgrabplus
+- [x] wireshark
+- [x] znc #1343
+- [x] Quassel IRC #1070
+- [x] DokuWiki #1115
+- [x] ApacheGuacamole #103
+- [x] Requestrr #237
+- [x] DMS (Document Manage System) #810
