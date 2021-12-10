@@ -18,19 +18,9 @@ _This list is to track `App Requests` from one place._
 - [ ] dnsmasq #711
 - [ ] Deemix #628
 - [ ] Trackarr #602
-- [ ] Steamcmd & 7 Days to die #599
 - [ ] Locast2Plex #473
-- [ ] Taiga #438
-- [ ] Wordpress #437
-- [ ] Synapse (Matrix Server) #410
-- [ ] Umbrel #404
-- [ ] Netdata #280
-- [ ] Appwrite/Parse Framework #278
-- [ ] GitLab #227
-- [ ] Scrutiny #198
-- [ ] MovieNight #139
-- [ ] LanCache #138
-- [ ] Phabricator #122
+
+
 - [ ] n8n #27
 - [ ] InfluxDB #5
 - [ ] External-Auth-Server #28
@@ -82,6 +72,19 @@ _This list is to track `App Requests` from one place._
 - [ ] Machinaris #1304
 - [ ] Ghost #1282
 
+##### TODO: Requires More-Than-Average effort
+- [ ] Taiga #438 (Clusterfuck of containers and already depricated)
+- [ ] Netdata #280
+- [ ] Appwrite/Parse Framework #278
+- [ ] GitLab #227
+- [ ] Wordpress #437
+- [ ] Steamcmd & 7 Days to die #599
+- [ ] Synapse (Matrix Server) #410
+- [ ] MovieNight #139 (not a good docker container available)
+- [ ] LanCache #138
+
+
+
 
 ##### TODO: LSIO containers with known complications
 
@@ -94,7 +97,7 @@ _This list is to track `App Requests` from one place._
 - [ ] nginx ( Should be called "nginx-webserver" to prevent ingress-provider confusion )
 - [ ] openssh-server ( Maybe call this "openssh-sandbox?" )
 - [ ] rutorrent ( needs another container source and has config complications )
-- [ ] scrutiny ( Needs customised solution for direct disk access )
+
 - [ ] snapdrop ( Not sure about networking requirements/design )
 - [ ] serviio ( very niche, no good containers )
 
