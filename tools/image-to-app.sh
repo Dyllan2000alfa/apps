@@ -5,14 +5,15 @@
 
 for i in $(cat to-app.txt); do
 
-    PLAIN=${i##*/}
+    SOURCE=${i##*/}
     PORT=$( echo $i | cut -d':' -f1 )
-    PLAIN=$( echo $PLAIN | cut -d':' -f1 )
-    TAG=$( echo $PLAIN | cut -d':' -f2 )
+    PLAIN=$( echo $SOURCE | cut -d':' -f1 )
+    TAG=$( echo $SOURCE | cut -d':' -f2 )
     CLEANTAG=${TAG//$'\r'/}
     CLEANPORT=${PORT//$'\r'/}
     CLEAN=${PLAIN//$'\r'/}
-    echo ${CLEAN##*|}
+    echo "${CLEAN##*|} ${CLEANTAG}"
+    mkdir -p charts/dev/${CLEAN}
     cp -rf templates/app/* charts/dev/${CLEAN}
     sed -i "s|CHARTNAME|${CLEAN}|g" charts/dev/${CLEAN}/Chart.yaml
     sed -i "s|CHARTNAME|${CLEAN}|g" charts/dev/${CLEAN}/values.yaml
