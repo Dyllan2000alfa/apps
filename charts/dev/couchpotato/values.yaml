@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/couchpotato
+  pullPolicy: IfNotPresent
+  tag: v2021.11.22
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 5050
+        port: 5050

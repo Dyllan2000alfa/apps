@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/endlessh
+  pullPolicy: IfNotPresent
+  tag: v2021.11.21
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 22
+        port: 22

@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/dillinger
+  pullPolicy: IfNotPresent
+  tag: v3.39.1
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 8080
+        port: 8080

@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/minetest
+  pullPolicy: IfNotPresent
+  tag: v5.4.1
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 30000
+        port: 30000

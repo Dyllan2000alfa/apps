@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/guacd
+  pullPolicy: IfNotPresent
+  tag: v1.3.0
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 4822
+        port: 4822

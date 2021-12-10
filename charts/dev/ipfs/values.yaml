@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/ipfs
+  pullPolicy: IfNotPresent
+  tag: v2.13.0
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 80
+        port: 80

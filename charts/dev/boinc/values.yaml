@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/boinc
+  pullPolicy: IfNotPresent
+  tag: v18.04.1
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 8080
+        port: 8080

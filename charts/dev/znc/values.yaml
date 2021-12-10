@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/znc
+  pullPolicy: IfNotPresent
+  tag: v1.8.2
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 6501
+        port: 6501

@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/webgrabplus
+  pullPolicy: IfNotPresent
+  tag: v3.2.1
+
+env: {}
+
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false

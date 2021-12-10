@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/habridge
+  pullPolicy: IfNotPresent
+  tag: v5.4.0
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 8080
+        port: 8080

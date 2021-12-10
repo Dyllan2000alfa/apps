@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/quassel-core
+  pullPolicy: IfNotPresent
+  tag: v0.13.1
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 4242
+        port: 4242

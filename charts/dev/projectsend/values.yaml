@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/projectsend
+  pullPolicy: IfNotPresent
+  tag: v2021.12.10
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 80
+        port: 80

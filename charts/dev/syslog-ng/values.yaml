@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/syslog-ng
+  pullPolicy: IfNotPresent
+  tag: v3.30.1
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 514
+        port: 514

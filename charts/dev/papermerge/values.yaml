@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/papermerge
+  pullPolicy: IfNotPresent
+  tag: v2.0.1
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 8000
+        port: 8000

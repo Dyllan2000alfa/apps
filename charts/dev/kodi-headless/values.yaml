@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/kodi-headless
+  pullPolicy: IfNotPresent
+  tag: v190
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 8080
+        port: 8080

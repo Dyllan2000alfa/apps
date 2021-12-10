@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/pylon
+  pullPolicy: IfNotPresent
+  tag: v2.7.0
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 3131
+        port: 3131

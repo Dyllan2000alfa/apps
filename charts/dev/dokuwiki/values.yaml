@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/dokuwiki
+  pullPolicy: IfNotPresent
+  tag: v2021.11.28
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 80
+        port: 80

@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/quassel-web
+  pullPolicy: IfNotPresent
+  tag: v2021.11.18
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 64080
+        port: 64080

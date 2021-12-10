@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/rsnapshot
+  pullPolicy: IfNotPresent
+  tag: v1.4.3
+
+env: {}
+
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false

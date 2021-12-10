@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/nano-wallet
+  pullPolicy: IfNotPresent
+  tag: v1.3.2
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 80
+        port: 80
