@@ -1,4 +1,4 @@
-for i in $(cat ./to-mirror.txt); do
+for i in $(cat ../to-app.txt); do
 
     PLAIN=${i##*/}
     PLAIN=$( echo $PLAIN | cut -d':' -f1 )
@@ -6,8 +6,8 @@ for i in $(cat ./to-mirror.txt); do
     CLEANTAG=${TAG//$'\r'/}
     CLEAN=${PLAIN//$'\r'/}
     echo ${CLEAN##*|}
-    cp -rf templates/app/* charts/dev/${CLEAN}
-    sed -i "s|CHARTNAME|${CLEAN}|g" charts/dev/${CLEAN}/Chart.yaml
-    sed -i "s|CHARTNAME|${CLEAN}|g" charts/dev/${CLEAN}/values.yaml
-    sed -i "s|CHARTTAG|${CLEANTAG}|g" charts/dev/${CLEAN}/values.yaml
+    cp -rf ../templates/app/* ../charts/dev/${CLEAN}
+    sed -i "s|CHARTNAME|${CLEAN}|g" ../charts/dev/${CLEAN}/Chart.yaml
+    sed -i "s|CHARTNAME|${CLEAN}|g" ../charts/dev/${CLEAN}/values.yaml
+    sed -i "s|CHARTTAG|${CLEANTAG}|g" ../charts/dev/${CLEAN}/values.yaml
     done
