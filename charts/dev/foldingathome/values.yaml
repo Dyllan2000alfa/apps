@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/foldingathome
+  pullPolicy: IfNotPresent
+  tag: foldingathome
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 7396
+        port: 7396

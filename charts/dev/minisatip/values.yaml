@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/minisatip
+  pullPolicy: IfNotPresent
+  tag: minisatip
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 8875
+        port: 8875

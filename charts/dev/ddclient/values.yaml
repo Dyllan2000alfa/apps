@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/ddclient
+  pullPolicy: IfNotPresent
+  tag: ddclient
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 666
+        port: 666

@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/nntp2nntp
+  pullPolicy: IfNotPresent
+  tag: nntp2nntp
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 1563
+        port: 1563

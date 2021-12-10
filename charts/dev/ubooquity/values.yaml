@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/ubooquity
+  pullPolicy: IfNotPresent
+  tag: ubooquity
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 2202
+        port: 2202

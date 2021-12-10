@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/ngircd
+  pullPolicy: IfNotPresent
+  tag: ngircd
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 6667
+        port: 6667

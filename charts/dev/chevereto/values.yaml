@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/chevereto
+  pullPolicy: IfNotPresent
+  tag: chevereto
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 80
+        port: 80

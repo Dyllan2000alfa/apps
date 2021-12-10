@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/webgrabplus
+  pullPolicy: IfNotPresent
+  tag: webgrabplus
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 666
+        port: 666

@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/synclounge
+  pullPolicy: IfNotPresent
+  tag: synclounge
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 8088
+        port: 8088

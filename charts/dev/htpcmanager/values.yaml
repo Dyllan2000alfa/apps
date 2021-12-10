@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/htpcmanager
+  pullPolicy: IfNotPresent
+  tag: htpcmanager
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 8085
+        port: 8085

@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/fleet
+  pullPolicy: IfNotPresent
+  tag: fleet
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 8080
+        port: 8080

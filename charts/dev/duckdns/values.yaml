@@ -1,0 +1,13 @@
+image:
+  repository: tccr.io/truecharts/duckdns
+  pullPolicy: IfNotPresent
+  tag: duckdns
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 666
+        port: 666
