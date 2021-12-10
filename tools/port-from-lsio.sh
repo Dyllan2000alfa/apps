@@ -1,5 +1,7 @@
+#!/usr/bin/env bash
+
 # The format of the to-app.txt file is as follows:
-# PORT:tccr.io/truecharts/CHART:TAG
+# tccr.io/truecharts/CHART:TAG
 
 for i in $(cat to-app.txt); do
 

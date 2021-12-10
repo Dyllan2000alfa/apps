@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # The format of the to-app.txt file is as follows:
 # PORT:tccr.io/truecharts/CHART:TAG
 
