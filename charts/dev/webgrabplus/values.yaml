@@ -7,7 +7,7 @@ env: {}
 
 service:
   main:
+    enabled: false
     ports:
       main:
-        targetPort: 666
-        port: 666
+        enabled: false
