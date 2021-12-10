@@ -4,3 +4,10 @@ image:
   tag: CHARTTAG
 
 env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: CHARTPORT
+        port: CHARTPORT
