@@ -3,6 +3,13 @@ image:
   pullPolicy: IfNotPresent
   tag: v2.4.5
 
+securityContext:
+  runAsNonRoot: false
+
+PodSecurityPolicy:
+  runAsUser: 0
+  runAsGroup: 0
+
 env:
   PUID: 568
 
