@@ -3,7 +3,8 @@ image:
   pullPolicy: IfNotPresent
   tag: v1.3.0
 
-env: {}
+env:
+  PUID: 568
 
 service:
   main:
@@ -11,3 +12,7 @@ service:
       main:
         targetPort: 4822
         port: 4822
+
+persistence:
+  varrun:
+    enabled: true
